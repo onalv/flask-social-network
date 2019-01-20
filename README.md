@@ -1,1 +1,1 @@
-# flask-social-network
+# Social network made in Flask
