@@ -36,4 +36,10 @@ def after_request(response):
 
 
 if __name__ == '__main':
+    models.initialize()
+    models.User.create_user(
+        name='aldo',
+        email='aldo@email.com',
+        password='aldo134'
+    )
     app.run(debug=DEBUG, host=HOST, port=PORT)
